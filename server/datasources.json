@@ -2,5 +2,14 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "pgdb": {
+    "host": "segint.co0c0yxnyhfp.us-west-2.rds.amazonaws.com",
+    "port": 5432,
+    "database": "segint",
+    "password": "segmentint!",
+    "name": "pgdb",
+    "user": "segint",
+    "connector": "postgresql"
   }
 }
