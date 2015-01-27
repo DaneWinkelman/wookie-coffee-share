@@ -25,5 +25,17 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "segment": {
+    "dataSource": null,
+    "public": true
+  },
+  "coffee": {
+    "dataSource": "db",
+    "public": true
+  },
+  "bean": {
+    "dataSource": "db",
+    "public": true
   }
 }
