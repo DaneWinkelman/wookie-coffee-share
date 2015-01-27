@@ -1,0 +1,31 @@
+{
+  "name": "bean",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true,
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "originName": {
+      "type": "string"
+    },
+    "origin": {
+      "type": "geopoint"
+    },
+    "stamp": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
